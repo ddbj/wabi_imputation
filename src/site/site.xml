@@ -1,0 +1,58 @@
+<!--
+
+    This file is part of WABI : DDBJ WebAPIs for Biology.
+
+    WABI : DDBJ WebAPIs for Biology is free software: you can redistribute it and/or modify
+    it under the terms of the GNU Lesser General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    WABI : DDBJ WebAPIs for Biology is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU Lesser General Public License for more details.
+
+    You should have received a copy of the GNU Lesser General Public License
+    along with WABI : DDBJ WebAPIs for Biology.  If not, see <http://www.gnu.org/licenses/>.
+
+-->
+<project>
+
+<!-- 
+   <bannerLeft>
+    <name>Project Name</name>
+    <src>http://maven.apache.org/images/apache-maven-project-2.png</src>
+    <href>http://maven.apache.org/</href>
+  </bannerLeft>
+
+  <bannerRight>
+    <src>http://maven.apache.org/images/maven-logo-2.gif</src>
+  </bannerRight>
+-->  
+    <poweredBy>
+    <logo name="Maven" href="http://maven.apache.org/"
+          img="http://maven.apache.org/images/logos/maven-feather.png"/>
+  </poweredBy>
+
+  <publishDate position="right"/>
+  <version position="right"/>
+
+  <body>
+    <menu name="Administraters Manual">
+      <item name="Installation" href="administrator-installation.html"/>
+    </menu>
+    <menu name="Users Manual">
+      <item name="How to use" href="users-usage.html"/>
+      <!-- <item name="Writing REST clients" href="users-clients.html" /> -->
+    </menu>
+    <menu name="Developpers Manual">
+       <item name="Glossary" href="developer-glossary.html" />
+     <!-- <item name="System Design" href="developer-design.html"/>
+	  <item name="Processing Flow" href="developer-flow.html" /> -->
+    </menu>
+
+   <menu ref="reports" />
+   <menu ref="modules" />
+   <menu ref="parents" />
+  </body>
+</project>
